@@ -1,1 +1,5 @@
-spring.application.name=native-image
+spring:
+  application:
+    name: native-image
+  jpa:
+    open-in-view: false
