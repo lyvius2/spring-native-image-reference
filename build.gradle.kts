@@ -37,6 +37,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("com.h2database:h2")
+    runtimeOnly("com.mysql:mysql-connector-j:9.1.0")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")

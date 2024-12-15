@@ -5,7 +5,6 @@ import com.walter.image.domain.console.ConsoleJpaRepository
 import com.walter.image.dto.console.ConsoleRegisterRequest
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
-
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.assertDoesNotThrow
 import org.springframework.beans.factory.annotation.Autowired
